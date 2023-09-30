@@ -25,5 +25,6 @@
     "profile": "My profile",
     "sys-encoding": "utf-8",
     "sys-language": "en_US",
-    "timezone": "Europe/Stockholm"
+    "timezone": "Europe/Stockholm",
+    "users": {}
 }
