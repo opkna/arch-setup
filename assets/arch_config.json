@@ -1,30 +1,35 @@
 {
-    "audio": "pipewire",
-    "bootloader": "grub-install",
-    "custom-commands": [],
-    "filesystem": "ext4",
-    "harddrive": {
-        "path": "/dev/sda"
+    "additional-repositories": [],
+    "archinstall-language": "English",
+    "audio_config": {
+        "audio": "pipewire"
     },
+    "bootloader": "grub-install",
+    "hostname": "archlinux",
     "kernels": [
         "linux"
     ],
-    "keyboard-language": "sv",
-    "mirror-region": "Worldwide",
-    "nic": {
-        "NetworkManager": true
+    "locale_config": {
+        "kb_layout": "sv",
+        "sys_enc": "UTF-8",
+        "sys_lang": "en_GB"
     },
+    "network_config": {
+        "type": "nm"
+    },
+    "no_pkg_lookups": false,
     "ntp": true,
+    "offline": false,
     "packages": [
         "git",
         "sudo",
         "vim",
         "wget",
-        "zsh"
+        "zsh",
+        "curl"
     ],
-    "profile": "My profile",
-    "sys-encoding": "utf-8",
-    "sys-language": "en_US",
+    "script": "guided",
+    "silent": false,
     "timezone": "Europe/Stockholm",
-    "users": {}
+    "version": "2.6.0"
 }
